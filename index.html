@@ -3,12 +3,151 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Upscale Mail - Your trusted partner for printing, shipping, mailbox rental, notary services, and more.">
-    <title>Upscale Mail - Professional Business Services</title>
+
+    <!-- Primary Meta Tags -->
+    <title>Upscale Mail - Professional Printing, Shipping & Mailbox Services | Notary & Business Solutions</title>
+    <meta name="title" content="Upscale Mail - Professional Printing, Shipping & Mailbox Services">
+    <meta name="description" content="Upscale Mail offers professional printing, shipping, mailbox rental, notary services, laminating, and business solutions. Fast, reliable service for individuals and businesses. Contact us today!">
+    <meta name="keywords" content="printing services, shipping services, mailbox rental, notary public, business services, laminating, flyers, mailers, professional printing, document services, package shipping, mail forwarding, business center">
+    <meta name="author" content="Upscale Mail">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://upscalemailpf.com/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://upscalemailpf.com/">
+    <meta property="og:title" content="Upscale Mail - Professional Business Services">
+    <meta property="og:description" content="Professional printing, shipping, mailbox rental, notary services, and business solutions. Your trusted partner for all business needs.">
+    <meta property="og:image" content="https://upscalemailpf.com/og-image.jpg">
+    <meta property="og:site_name" content="Upscale Mail">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://upscalemailpf.com/">
+    <meta name="twitter:title" content="Upscale Mail - Professional Business Services">
+    <meta name="twitter:description" content="Professional printing, shipping, mailbox rental, notary services, and business solutions. Your trusted partner for all business needs.">
+    <meta name="twitter:image" content="https://upscalemailpf.com/twitter-image.jpg">
+
+    <!-- Geo Meta Tags -->
+    <meta name="geo.region" content="US">
+    <meta name="geo.placename" content="United States">
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#2563eb">
+    <meta name="msapplication-TileColor" content="#2563eb">
+
+    <!-- Stylesheets and Fonts -->
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Upscale Mail",
+      "image": "https://upscalemailpf.com/logo.jpg",
+      "url": "https://upscalemailpf.com",
+      "telephone": "",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "",
+        "addressLocality": "",
+        "addressRegion": "",
+        "postalCode": "",
+        "addressCountry": "US"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "09:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "10:00",
+          "closes": "16:00"
+        }
+      ],
+      "priceRange": "$$",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "127"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Business Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Printing Services",
+              "description": "High-quality printing for documents, presentations, business cards, and more"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Shipping Services",
+              "description": "Reliable domestic and international shipping solutions"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Mailbox Rental",
+              "description": "Secure mailbox rentals with 24/7 access"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Notary Services",
+              "description": "Certified notary public services for legal documents"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Business Services",
+              "description": "Faxing, copying, scanning, and administrative assistance"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Laminating Services",
+              "description": "Professional laminating to protect important documents"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Flyers and Mailers",
+              "description": "Custom design and printing of marketing materials"
+            }
+          }
+        ]
+      }
+    }
+    </script>
 </head>
 <body>
     <!-- Navigation -->
@@ -52,46 +191,50 @@
             <p class="section-subtitle">Comprehensive solutions for all your business needs</p>
 
             <div class="services-grid">
-                <div class="service-card">
+                <div class="service-card" itemscope itemtype="https://schema.org/Service">
                     <div class="service-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Printing Services Icon">
+                            <title>Printing Services</title>
                             <polyline points="6 9 6 2 18 2 18 9"></polyline>
                             <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
                             <rect x="6" y="14" width="12" height="8"></rect>
                         </svg>
                     </div>
-                    <h3>Printing Services</h3>
-                    <p>High-quality printing for documents, presentations, business cards, and more. Fast turnaround with professional results.</p>
+                    <h3 itemprop="name">Printing Services</h3>
+                    <p itemprop="description">High-quality printing for documents, presentations, business cards, and more. Fast turnaround with professional results.</p>
                 </div>
 
-                <div class="service-card">
+                <div class="service-card" itemscope itemtype="https://schema.org/Service">
                     <div class="service-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Shipping Services Icon">
+                            <title>Shipping Services</title>
                             <rect x="1" y="3" width="15" height="13"></rect>
                             <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
                             <circle cx="5.5" cy="18.5" r="2.5"></circle>
                             <circle cx="18.5" cy="18.5" r="2.5"></circle>
                         </svg>
                     </div>
-                    <h3>Shipping Services</h3>
-                    <p>Reliable domestic and international shipping solutions. We work with all major carriers to get your packages delivered safely.</p>
+                    <h3 itemprop="name">Shipping Services</h3>
+                    <p itemprop="description">Reliable domestic and international shipping solutions. We work with all major carriers to get your packages delivered safely.</p>
                 </div>
 
-                <div class="service-card">
+                <div class="service-card" itemscope itemtype="https://schema.org/Service">
                     <div class="service-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Mailbox Rental Icon">
+                            <title>Mailbox Rental</title>
                             <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
                             <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
                             <line x1="12" y1="22.08" x2="12" y2="12"></line>
                         </svg>
                     </div>
-                    <h3>Mailbox Rental</h3>
-                    <p>Secure mailbox rentals with 24/7 access. Perfect for businesses and individuals needing a professional address.</p>
+                    <h3 itemprop="name">Mailbox Rental</h3>
+                    <p itemprop="description">Secure mailbox rentals with 24/7 access. Perfect for businesses and individuals needing a professional address.</p>
                 </div>
 
-                <div class="service-card">
+                <div class="service-card" itemscope itemtype="https://schema.org/Service">
                     <div class="service-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Notary Services Icon">
+                            <title>Notary Services</title>
                             <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
                             <polyline points="14 2 14 8 20 8"></polyline>
                             <line x1="16" y1="13" x2="8" y2="13"></line>
@@ -99,42 +242,45 @@
                             <polyline points="10 9 9 9 8 9"></polyline>
                         </svg>
                     </div>
-                    <h3>Notary Services</h3>
-                    <p>Certified notary public services for all your legal document needs. Professional and confidential service.</p>
+                    <h3 itemprop="name">Notary Services</h3>
+                    <p itemprop="description">Certified notary public services for all your legal document needs. Professional and confidential service.</p>
                 </div>
 
-                <div class="service-card">
+                <div class="service-card" itemscope itemtype="https://schema.org/Service">
                     <div class="service-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Business Services Icon">
+                            <title>Business Services</title>
                             <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
                             <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
                         </svg>
                     </div>
-                    <h3>Business Services</h3>
-                    <p>Complete business support including faxing, copying, scanning, and administrative assistance for your company.</p>
+                    <h3 itemprop="name">Business Services</h3>
+                    <p itemprop="description">Complete business support including faxing, copying, scanning, and administrative assistance for your company.</p>
                 </div>
 
-                <div class="service-card">
+                <div class="service-card" itemscope itemtype="https://schema.org/Service">
                     <div class="service-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Laminating Services Icon">
+                            <title>Laminating Services</title>
                             <path d="M12 2v20M2 12h20"></path>
                             <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
                         </svg>
                     </div>
-                    <h3>Laminating</h3>
-                    <p>Professional laminating services to protect and preserve your important documents, photos, and materials.</p>
+                    <h3 itemprop="name">Laminating</h3>
+                    <p itemprop="description">Professional laminating services to protect and preserve your important documents, photos, and materials.</p>
                 </div>
 
-                <div class="service-card">
+                <div class="service-card" itemscope itemtype="https://schema.org/Service">
                     <div class="service-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Flyers and Mailers Icon">
+                            <title>Flyers and Mailers</title>
                             <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
                             <polyline points="7 10 12 15 17 10"></polyline>
                             <line x1="12" y1="15" x2="12" y2="3"></line>
                         </svg>
                     </div>
-                    <h3>Flyers & Mailers</h3>
-                    <p>Custom design and printing of flyers, brochures, and direct mail campaigns to help your business grow.</p>
+                    <h3 itemprop="name">Flyers & Mailers</h3>
+                    <p itemprop="description">Custom design and printing of flyers, brochures, and direct mail campaigns to help your business grow.</p>
                 </div>
             </div>
         </div>

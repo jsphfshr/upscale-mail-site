@@ -1,0 +1,15 @@
+# Robots.txt for Upscale Mail
+# Allow all search engines to crawl the site
+
+User-agent: *
+Allow: /
+
+# Disallow access to backend API and submissions
+Disallow: /api/
+Disallow: /submissions/
+
+# Sitemap location
+Sitemap: https://upscalemailpf.com/sitemap.xml
+
+# Crawl-delay for polite crawling (optional)
+Crawl-delay: 1
