@@ -59,7 +59,6 @@ body {
 .nav-brand a {
     display: flex;
     align-items: center;
-    gap: 0.75rem;
     text-decoration: none;
     transition: opacity 0.3s;
 }
@@ -69,25 +68,20 @@ body {
 }
 
 .nav-logo {
-    height: 50px;
+    height: 60px;
     width: auto;
     display: block;
 }
 
-.nav-brand-text {
-    font-size: 1.5rem;
-    color: var(--primary-color);
-    font-weight: 700;
+@media (max-width: 768px) {
+    .nav-logo {
+        height: 50px;
+    }
 }
 
-/* Hide brand text on smaller screens to save space */
 @media (max-width: 480px) {
-    .nav-brand-text {
-        display: none;
-    }
-
     .nav-logo {
-        height: 40px;
+        height: 45px;
     }
 }
 
